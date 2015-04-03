@@ -48,6 +48,7 @@ service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     socket gps seqpacket 0660 gps system
     user gps
     group system inet sdcard_rw
+    seclabel u:r:gpsd:s0
 
 # ZRAM configuration file
 service configure_zram /system/bin/configure_zram

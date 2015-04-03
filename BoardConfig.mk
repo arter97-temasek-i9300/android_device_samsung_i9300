@@ -45,11 +45,13 @@ BOARD_SEPOLICY_UNION += \
     domain.te \
     file.te \
     file_contexts \
+    gpsd.te \
     init.te \
     mediaserver.te \
     netd.te \
     nfc.te \
     rild.te \
+    servicemanager.te \
     service_contexts \
     surfaceflinger.te \
     sysinit.te \
